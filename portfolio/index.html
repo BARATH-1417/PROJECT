@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barath P — CS &amp; AI/ML Student | Aspiring Software &amp; AI Engineer</title>
+  <meta name="description" content="Portfolio of Barath P, a third-year Computer Science &amp; Engineering (AI &amp; ML) student from Trichy, India. Explore projects, skills, and experience — open to internships in software, AI/ML, and cloud.">
+  <meta name="keywords" content="Barath P, portfolio, computer science, AI, machine learning, student developer, Trichy, internship">
+  <meta name="author" content="Barath P">
+  <meta name="theme-color" content="#0b1120">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Barath P — CS & AI/ML Student">
+  <meta property="og:description" content="Third-year Computer Science & Engineering (AI & ML) student building a foundation in software and AI. Open to internship opportunities.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta property="og:url" content="https://[add-your-deployed-url].azurestaticapps.net">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Barath P — CS & AI/ML Student">
+  <meta name="twitter:description" content="Third-year CSE (AI & ML) student — portfolio, projects, and experience.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%23f2a93b%22>&gt;_</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== NAV ===== -->
+  <header class="tabbar" id="tabbar">
+    <div class="tabbar__inner">
+      <a href="#hero" class="tabbar__brand" aria-label="Barath P — home">
+        <span class="tabbar__dot" aria-hidden="true"></span>
+        barath<span class="accent-amber">.</span>dev
+      </a>
+
+      <nav class="tabbar__nav" id="primary-nav" aria-label="Primary">
+        <a href="#about" class="tab" data-tab>about<span class="tab__ext">.tsx</span></a>
+        <a href="#skills" class="tab" data-tab>skills<span class="tab__ext">.json</span></a>
+        <a href="#projects" class="tab" data-tab>projects<span class="tab__ext">/</span></a>
+        <a href="#experience" class="tab" data-tab>experience<span class="tab__ext">.log</span></a>
+        <a href="#education" class="tab" data-tab>education<span class="tab__ext">.md</span></a>
+        <a href="#achievements" class="tab" data-tab>awards<span class="tab__ext">.txt</span></a>
+        <a href="#contact" class="tab" data-tab>contact<span class="tab__ext">.sh</span></a>
+      </nav>
+
+      <a href="assets/resume/Barath_P_Resume.pdf" class="btn btn--ghost btn--small" download>
+        Resume ↓
+      </a>
+
+      <button class="tabbar__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+      <a href="#about" data-tab>about.tsx</a>
+      <a href="#skills" data-tab>skills.json</a>
+      <a href="#projects" data-tab>projects/</a>
+      <a href="#experience" data-tab>experience.log</a>
+      <a href="#education" data-tab>education.md</a>
+      <a href="#achievements" data-tab>awards.txt</a>
+      <a href="#contact" data-tab>contact.sh</a>
+      <a href="assets/resume/Barath_P_Resume.pdf" download>download resume ↓</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow">// building toward software &amp; AI engineering</p>
+          <h1 class="hero__name">Barath P</h1>
+          <p class="hero__title">B.E. Computer Science &amp; Engineering <span class="accent-cyan">(AI &amp; ML)</span></p>
+          <p class="hero__intro">
+            Third-year engineering student laying a solid foundation in programming, databases,
+            and web fundamentals — with a growing focus on artificial intelligence and machine
+            learning. I learn by building, and I'm looking for an internship where I can do the same
+            alongside a real team.
+          </p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">View My Projects</a>
+            <a href="assets/resume/Barath_P_Resume.pdf" class="btn btn--outline" download>Download Resume</a>
+          </div>
+          <div class="hero__meta">
+            <span>📍 Trichy, India</span>
+            <span aria-hidden="true">•</span>
+            <span>🎓 Class of 2028</span>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-window__bar">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+              <span class="code-window__filename">about-me.js</span>
+            </div>
+            <pre class="code-window__body"><code><span class="tok-key">const</span> <span class="tok-var">barath</span> = {
+  <span class="tok-prop">name</span>: <span class="tok-str">"Barath P"</span>,
+  <span class="tok-prop">role</span>: <span class="tok-str">"CSE (AI & ML) Student"</span>,
+  <span class="tok-prop">year</span>: <span class="tok-str">"3rd Year"</span>,
+  <span class="tok-prop">stack</span>: [<span class="tok-str">"Python"</span>, <span class="tok-str">"Java"</span>, <span class="tok-str">"SQL"</span>],
+  <span class="tok-prop">learning</span>: <span class="tok-str">"AI / ML foundations"</span>,
+  <span class="tok-prop">status</span>: <span class="typed-cursor" id="typedStatus"></span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="section__head reveal">
+        <p class="eyebrow">about.tsx</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about__grid">
+        <figure class="about__photo reveal">
+          <img src="assets/images/profile.jpg" alt="Portrait of Barath P" width="360" height="360" loading="lazy">
+        </figure>
+
+        <div class="about__copy reveal">
+          <p>
+            I'm a dedicated third-year <strong>Computer Science and Engineering</strong> student
+            specializing in <strong>Artificial Intelligence and Machine Learning</strong> at
+            K. Ramakrishnan College of Engineering. I'm proficient in HTML, CSS, Python, and SQL,
+            with a solid understanding of web development and database management.
+          </p>
+          <p>
+            I'm passionate about AI, machine learning, and software development, and I bring a
+            strong willingness to learn emerging technologies, contribute to real projects, and
+            grow as a software engineer. My near-term goal is an internship in software
+            development, AI/ML, or cloud where I can apply what I've learned and pick up how a
+            real engineering team works.
+          </p>
+
+          <div class="about__facts">
+            <div class="fact">
+              <span class="fact__label">Education</span>
+              <span class="fact__value">B.E. CSE (AI &amp; ML), 2028</span>
+            </div>
+            <div class="fact">
+              <span class="fact__label">Based in</span>
+              <span class="fact__value">Trichy, India</span>
+            </div>
+            <div class="fact">
+              <span class="fact__label">Languages</span>
+              <span class="fact__value">Tamil (Native), English</span>
+            </div>
+            <div class="fact">
+              <span class="fact__label">Looking for</span>
+              <span class="fact__value">Software / AI / Cloud internships</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section section--alt" id="skills">
+      <div class="section__head reveal">
+        <p class="eyebrow">skills.json</p>
+        <h2>Skills</h2>
+        <p class="section__sub">Technologies I've studied and used hands-on, grouped by area.</p>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skill-card reveal">
+          <h3><span class="skill-card__icon" aria-hidden="true">⌨️</span> Programming Languages</h3>
+          <ul class="tag-list">
+            <li class="tag">Python</li>
+            <li class="tag">Java</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3><span class="skill-card__icon" aria-hidden="true">🌐</span> Web Technologies</h3>
+          <ul class="tag-list">
+            <li class="tag">HTML</li>
+            <li class="tag">CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3><span class="skill-card__icon" aria-hidden="true">🗄️</span> Databases</h3>
+          <ul class="tag-list">
+            <li class="tag">MySQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3><span class="skill-card__icon" aria-hidden="true">🛠️</span> Tools &amp; Version Control</h3>
+          <ul class="tag-list">
+            <li class="tag">Git (Basics)</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="skills__note reveal">
+        Alongside these, I'm building a foundation in Artificial Intelligence &amp; Machine
+        Learning through my B.E. specialization coursework.
+      </p>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="section__head reveal">
+        <p class="eyebrow">projects/</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects__grid">
+        <article class="project-card reveal">
+          <div class="project-card__top">
+            <span class="project-card__folder" aria-hidden="true">📁</span>
+            <span class="project-card__date">Apr – May 2026</span>
+          </div>
+          <h3>EduBlock — Educational Website</h3>
+          <p>
+            A responsive education website built with WordPress, giving students a single place
+            to explore courses, learning resources, and general educational information. Designed
+            with a user-friendly interface and organized navigation across Home, About, Courses,
+            Teachers, and Contact sections.
+          </p>
+          <div class="project-card__stack">
+            <span class="tag tag--sm">WordPress</span>
+            <span class="tag tag--sm">Web Design</span>
+            <span class="tag tag--sm">Content Management</span>
+          </div>
+          <ul class="project-card__features">
+            <li>Organized multi-section navigation (Home, About, Courses, Teachers, Contact)</li>
+            <li>Focus on an engaging, accessible learning experience</li>
+            <li>Applied website customization &amp; content management techniques</li>
+          </ul>
+          <a class="project-card__link" href="[Add project repo/demo URL]">
+            View Project →
+          </a>
+        </article>
+
+        <article class="project-card project-card--ghost reveal">
+          <div class="project-card__top">
+            <span class="project-card__folder" aria-hidden="true">＋</span>
+          </div>
+          <h3>More projects, in progress</h3>
+          <p>
+            I'm actively building more projects as I go deeper into AI &amp; ML — this space will
+            grow. Check back soon, or take a look at my GitHub.
+          </p>
+          <a class="project-card__link" href="https://github.com/BARATH-1417/blackn" target="_blank" rel="noopener noreferrer">
+            Visit GitHub Profile →
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section section--alt" id="experience">
+      <div class="section__head reveal">
+        <p class="eyebrow">experience.log</p>
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__item reveal">
+          <div class="timeline__marker" aria-hidden="true"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="tag tag--sm">15-Day Internship</span>
+            </div>
+            <h3>Web Development Intern</h3>
+            <p class="timeline__org">VDart Technologies</p>
+            <p>
+              Completed a 15-day Web Development internship, gaining practical experience
+              designing and developing responsive websites. Worked with HTML and CSS to build
+              user-friendly web pages while learning industry-standard web development practices.
+            </p>
+            <ul class="timeline__list">
+              <li>Collaborated with team members and understood project requirements</li>
+              <li>Built responsive, user-friendly web pages with HTML &amp; CSS</li>
+              <li>Strengthened skills in front-end development, debugging &amp; problem-solving</li>
+              <li>Gained exposure to website optimization and a professional dev environment</li>
+            </ul>
+            <div class="project-card__stack">
+              <span class="tag tag--sm">HTML</span>
+              <span class="tag tag--sm">CSS</span>
+              <span class="tag tag--sm">Responsive Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="section__head reveal">
+        <p class="eyebrow">education.md</p>
+        <h2>Education</h2>
+      </div>
+
+      <div class="edu-card reveal">
+        <div class="edu-card__icon" aria-hidden="true">🎓</div>
+        <div>
+          <h3>Bachelor of Engineering (B.E.)</h3>
+          <p class="edu-card__major">Computer Science Engineering — Artificial Intelligence &amp; Machine Learning</p>
+          <p class="edu-card__school">K. Ramakrishnan College of Engineering</p>
+          <p class="edu-card__year">Expected 2028</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS ===== -->
+    <section class="section section--alt" id="achievements">
+      <div class="section__head reveal">
+        <p class="eyebrow">awards.txt</p>
+        <h2>Certifications &amp; Achievements</h2>
+      </div>
+
+      <ul class="achievements__list reveal">
+        <li>
+          <span class="achievements__icon" aria-hidden="true">🏆</span>
+          Successfully completed a 15-day Web Development Internship at VDart Technologies.
+        </li>
+        <li>
+          <span class="achievements__icon" aria-hidden="true">🏆</span>
+          Developed the EduBlock education website using WordPress as an academic project.
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="section__head reveal">
+        <p class="eyebrow">contact.sh</p>
+        <h2>Let's Connect</h2>
+        <p class="section__sub">
+          Open to internship opportunities in software development, AI/ML, and cloud. Reach out —
+          I'd love to talk.
+        </p>
+      </div>
+
+      <div class="contact__terminal reveal">
+        <div class="code-window__bar">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--yellow"></span>
+          <span class="dot dot--green"></span>
+          <span class="code-window__filename">contact.sh</span>
+        </div>
+        <div class="contact__body">
+          <a class="contact__row" href="mailto:barathcode04@gmail.com">
+            <span class="contact__prompt">$</span> mail <span class="accent-cyan">barathcode04@gmail.com</span>
+          </a>
+          <a class="contact__row" href="tel:+919789518698">
+            <span class="contact__prompt">$</span> call <span class="accent-cyan">+91 97895 18698</span>
+          </a>
+          <a class="contact__row" href="https://linkedin.com/in/barath" target="_blank" rel="noopener noreferrer">
+            <span class="contact__prompt">$</span> open <span class="accent-cyan">linkedin.com/in/barath</span>
+          </a>
+          <a class="contact__row" href="https://github.com/BARATH-1417/blackn" target="_blank" rel="noopener noreferrer">
+            <span class="contact__prompt">$</span> open <span class="accent-cyan">github.com/BARATH-1417/blackn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>Designed &amp; built by Barath P.</p>
+      <p class="footer__meta">Trichy, India · <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
